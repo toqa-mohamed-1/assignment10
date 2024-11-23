@@ -1,0 +1,30 @@
+header{
+    background-color: #F7ECDE;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.book{
+    z-index: 99;
+    font-family: "Pacifico", cursive;
+}
+.book::after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 20px;
+    background-color: #FEC260;
+    bottom: 50px;
+    z-index: -1;
+}
+.dash-line{
+    border-bottom: 1px dashed black;
+}
+.bookmark{
+    color: #3FA55B;
+}
+.fav{
+  color:#B3AC49 ;
+}

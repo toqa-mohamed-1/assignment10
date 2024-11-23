@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="vh-100">
+    <div class="container">
+        <h1 class="mx-auto d-flex justify-content-center  py-5 position-relative book">Bookmarker</h1>
+<div class="dash-line"></div>
+<h2 class="mx-auto text-center bookmark"><i class="fa-solid fa-bookmark"></i> Bookmark your <span class="fav">favorite sites </span> <i class="fa-solid fa-bookmark fav"></i></h2>
+  
+
+    <section class="mx-auto mt-5 py-5">
+        <label for="site">   <i class="fa-solid fa-book"></i> site name </label>
+        <input type="text" placeholder="bookmark name" id ="site" class="form-control mt-2">
+
+        <label for="url"><i class="fa-solid fa-link"></i> Site URL </label>
+        <input type="text" placeholder="website url" id ="url" class="form-control mt-2">
+
+
+        <button class="mx-auto btn btn-danger d-flex justify-content-center mt-3 px-5" onclick="addSite()">submit</button>
+
+    </section>
+    <div class="dash-line mt-5" ></div>
+
+
+
+    <table class="table table-striped mt-5">
+        <thead>
+            <tr>
+                <th>index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+              </table>
+      </div>
+    
+
+</header>
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
